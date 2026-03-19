@@ -20,8 +20,8 @@ def call(Map config = [:]) {
 
         // Configure Git
         sh """
-            git config user.name "${gitUserName}"
-            git config user.email "${gitUserEmail}"
+            git config user.name "${nkasbe21}"
+            git config user.email "${nkasbe2101}"
         """
 
         sh """
