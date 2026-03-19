@@ -20,7 +20,7 @@ def call(Map config = [:]) {
         // Configure Git
         sh """
             git config user.name "${nkasbe21}"
-            git config user.email "${nishakasbe2101@gmail.com}"
+            git config user.email "nishakasbe2101@gmail.com"
         """
         
         // Update deployment manifests with new image tags - using proper Linux sed syntax
