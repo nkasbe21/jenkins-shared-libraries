@@ -6,10 +6,10 @@ def call(Map config = [:]) {
     echo "Generating build report..."
     
     // Create directory for reports
-    sh "mkdir -p reports"
+    bat "mkdir -p reports"
     
     // Generate report
-    sh """
+    bat """
         echo "===== ${projectName} Build Report =====" > reports/build-report.txt
         echo "Generated: \$(date)" >> reports/build-report.txt
         echo "" >> reports/build-report.txt
