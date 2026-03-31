@@ -19,12 +19,12 @@ def call(Map config = [:]) {
     )]) {
 
         // Configure Git
-        sh """
+        bat """
             git config user.name "${nkasbe21}"
             git config user.email "${nkasbe2101}"
         """
 
-        sh """
+        bat """
             set -e
 
             # Update deployment if exists
