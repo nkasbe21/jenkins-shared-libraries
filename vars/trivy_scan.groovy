@@ -1,3 +1,3 @@
 def call(){
-  bat "trivy fs ."
+  bat "docker run --rm -v %cd%:/app aquasec/trivy fs /app"
 }
