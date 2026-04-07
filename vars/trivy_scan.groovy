@@ -1,3 +1,3 @@
 def call(){
-  sh "trivy fs ."
+  bat "trivy fs ."
 }
